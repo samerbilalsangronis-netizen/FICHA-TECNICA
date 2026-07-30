@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piña — Ficha Técnica | Tierra Santa</title>
+<meta name="description" content="Ficha técnica de pulpa de Piña: descripción, composición, vida útil y rendimiento aproximado.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script>
+  // Falls back to a colored monogram card whenever a product/logo photo is missing.
+  function fruitImgFallback(img) {
+    img.onerror = null;
+    var ph = document.createElement('div');
+    ph.className = img.dataset.fallbackClass || 'ph-placeholder';
+    ph.dataset.label = img.dataset.mono || '';
+    ph.style.background = img.dataset.color || '#c9973b';
+    img.replaceWith(ph);
+  }
+</script>
+
+</head>
+<body>
+
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../index.html">
+      <img src="../assets/img/logo.png" alt="Logo Tierra Santa" class="brand-mark" data-mono="TS" data-color="#211d18" data-fallback-class="brand-mark-fallback" onerror="fruitImgFallback(this)">
+      <span class="brand-text">
+        <span class="brand-name">Tierra Santa</span>
+        <span class="brand-tagline">Procesadora de Frutas</span>
+      </span>
+    </a>
+    <nav class="main-nav">
+      <a class="nav-link nav-links-inline" href="../index.html">Portada</a>
+      <div class="rubros-menu-wrap">
+        <button class="nav-link nav-links-inline rubros-toggle-inline" type="button" onclick="document.querySelector('.rubros-menu').classList.toggle('open')">Rubros ▾</button>
+        <button class="nav-toggle" type="button" aria-label="Abrir menú"><span></span></button>
+        <div class="rubros-menu"><a class="nav-link" href="../rubros/guanabana.html">Guanábana</a><a class="nav-link" href="../rubros/fresa.html">Fresa</a><a class="nav-link" href="../rubros/mora.html">Mora</a><a class="nav-link" href="../rubros/parchita.html">Parchita (Maracuyá)</a><a class="nav-link" href="../rubros/guayaba.html">Guayaba</a><a class="nav-link" href="../rubros/mango.html">Mango</a><a class="nav-link" href="../rubros/pina.html">Piña</a><a class="nav-link" href="../rubros/tamarindo.html">Tamarindo</a><a class="nav-link" href="../rubros/guanabana-fresa.html">Guanábana - Fresa</a><a class="nav-link" href="../rubros/durazno.html">Durazno</a><a class="nav-link" href="../rubros/lulo.html">Lulo</a><a class="nav-link" href="../rubros/tomate-de-arbol.html">Tomate de Árbol</a></div>
+      </div>
+    </nav>
+  </div>
+</header>
+<section class="section rubro-hero">
+  <div class="container">
+    <div class="rubro-hero-photo">
+      <img src="../assets/img/pulpas/pina.jpg" alt="Pulpa de Piña" class="" data-mono="PI" data-color="#d4a017" onerror="fruitImgFallback(this)">
+    </div>
+    <div>
+      <div class="eyebrow">Ficha Técnica — Rubro</div>
+      <h1>Piña</h1>
+      <span class="sci">Ananas comosus</span>
+      <p>Pulpa de piña de color amarillo pálido, sabor dulce-ácido refrescante y aroma tropical intenso. Libre de corazón y cáscara, sin aditivos añadidos.</p>
+    </div>
+  </div>
+</section>
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="data-grid">
+      <div class="data-card">
+        <h3>Composición</h3>
+        <dl>
+          <dt>Sólidos solubles</dt><dd>12 – 16 °Brix</dd>
+          <dt>pH</dt><dd>3.3 – 4.1</dd>
+          <dt>Acidez titulable</dt><dd>0.5 – 0.8% (ác. cítrico)</dd>
+        </dl>
+      </div>
+      <div class="data-card">
+        <h3>Vida Útil</h3>
+        <dl>
+          <dt>Congelada</dt><dd>12 meses a -18°C</dd>
+          <dt>Refrigerada (post-descongelado)</dt><dd>3 – 5 días (2-8°C, una vez descongelada)</dd>
+        </dl>
+      </div>
+      <div class="data-card full">
+        <h3>Rendimiento Aproximado</h3>
+        <div class="yield-number">5 – 5.5 litros de pulpa por cada 10 kg de fruta fresca (por corteza y corazón fibroso)</div>
+      </div>
+    </div>
+    <div class="pager">
+      <a href="mango.html">← Mango</a>
+      <a href="../index.html">Todos los rubros</a>
+      <a href="tamarindo.html">Tamarindo →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="brand-name">Tierra Santa</span><br>
+        <span class="brand-tagline">Procesadora de Frutas</span>
+      </div>
+      <div class="footer-links"><a href="../rubros/guanabana.html">Guanábana</a><a href="../rubros/fresa.html">Fresa</a><a href="../rubros/mora.html">Mora</a><a href="../rubros/parchita.html">Parchita (Maracuyá)</a><a href="../rubros/guayaba.html">Guayaba</a><a href="../rubros/mango.html">Mango</a><a href="../rubros/pina.html">Piña</a><a href="../rubros/tamarindo.html">Tamarindo</a><a href="../rubros/guanabana-fresa.html">Guanábana - Fresa</a><a href="../rubros/durazno.html">Durazno</a><a href="../rubros/lulo.html">Lulo</a><a href="../rubros/tomate-de-arbol.html">Tomate de Árbol</a></div>
+    </div>
+    <div class="footer-note">
+      Ficha técnica de referencia. Los valores de composición, vida útil y rendimiento son aproximados
+      y deben validarse mediante análisis de laboratorio antes de su uso comercial o regulatorio.
+      &copy; 2026 Tierra Santa.
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

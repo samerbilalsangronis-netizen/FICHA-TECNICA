@@ -1,0 +1,218 @@
+[
+  {
+    "slug": "guanabana",
+    "nombre": "Guanábana",
+    "nombreCientifico": "Annona muricata",
+    "mono": "GB",
+    "color": "#4a7c59",
+    "descripcion": "Pulpa 100% natural obtenida de guanábana fresca y madura, de color blanco cremoso, aroma característico y sabor dulce-ácido suave. Producto congelado sin aditivos, conservantes ni azúcar añadida, ideal para jugos, batidos, helados y postres.",
+    "composicion": {
+      "brix": "13 – 16 °Brix",
+      "ph": "3.5 – 4.3",
+      "acidez": "0.5 – 0.8% (ác. cítrico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
+    },
+    "rendimiento": "6 – 7 litros de pulpa por cada 10 kg de fruta fresca"
+  },
+  {
+    "slug": "fresa",
+    "nombre": "Fresa",
+    "nombreCientifico": "Fragaria x ananassa",
+    "mono": "FR",
+    "color": "#c8375b",
+    "descripcion": "Pulpa obtenida de fresas frescas, seleccionadas y maduras, de color rojo intenso, sabor dulce-ácido y aroma frutal característico. Congelada sin aditivos, apta para jugos, mermeladas, salsas y coctelería.",
+    "composicion": {
+      "brix": "6 – 9 °Brix",
+      "ph": "3.0 – 3.5",
+      "acidez": "0.6 – 1.0% (ác. cítrico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
+    },
+    "rendimiento": "8.5 – 9 litros de pulpa por cada 10 kg de fruta fresca"
+  },
+  {
+    "slug": "mora",
+    "nombre": "Mora",
+    "nombreCientifico": "Rubus glaucus",
+    "mono": "MO",
+    "color": "#5b2a6e",
+    "descripcion": "Pulpa de mora de castilla, de color púrpura oscuro, sabor agridulce intenso y aroma característico. Tamizada para eliminar semillas grandes, sin aditivos añadidos. Ideal para jugos, jaleas y repostería.",
+    "composicion": {
+      "brix": "7 – 10 °Brix",
+      "ph": "2.8 – 3.2",
+      "acidez": "1.5 – 2.5% (ác. cítrico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
+    },
+    "rendimiento": "8 – 8.5 litros de pulpa por cada 10 kg de fruta fresca"
+  },
+  {
+    "slug": "parchita",
+    "nombre": "Parchita (Maracuyá)",
+    "nombreCientifico": "Passiflora edulis",
+    "mono": "PA",
+    "color": "#e0932c",
+    "descripcion": "Pulpa concentrada de parchita, de color amarillo-anaranjado, sabor ácido intenso y aroma tropical pronunciado. Libre de semillas, cáscara y fibra gruesa, apta para jugos, salsas y coctelería.",
+    "composicion": {
+      "brix": "12 – 16 °Brix",
+      "ph": "2.8 – 3.3",
+      "acidez": "2.5 – 4.5% (ác. cítrico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
+    },
+    "rendimiento": "3 – 3.5 litros de pulpa por cada 10 kg de fruta entera (alto contenido de cáscara)"
+  },
+  {
+    "slug": "guayaba",
+    "nombre": "Guayaba",
+    "nombreCientifico": "Psidium guajava",
+    "mono": "GY",
+    "color": "#d96b7a",
+    "descripcion": "Pulpa de guayaba rosada, de color rosado-salmón, textura suave y sabor dulce característico. Tamizada para eliminar semillas duras, sin aditivos añadidos.",
+    "composicion": {
+      "brix": "8 – 12 °Brix",
+      "ph": "3.5 – 4.5",
+      "acidez": "0.3 – 0.6% (ác. cítrico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
+    },
+    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca"
+  },
+  {
+    "slug": "mango",
+    "nombre": "Mango",
+    "nombreCientifico": "Mangifera indica",
+    "mono": "MA",
+    "color": "#e8901f",
+    "descripcion": "Pulpa de mango maduro, de color amarillo-anaranjado intenso, sabor dulce y textura suave, sin fibra. Producto congelado sin aditivos ni azúcar añadida, ideal para jugos, néctares y repostería.",
+    "composicion": {
+      "brix": "14 – 20 °Brix",
+      "ph": "3.5 – 4.5",
+      "acidez": "0.2 – 0.5% (ác. cítrico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
+    },
+    "rendimiento": "6 – 6.5 litros de pulpa por cada 10 kg de fruta fresca"
+  },
+  {
+    "slug": "pina",
+    "nombre": "Piña",
+    "nombreCientifico": "Ananas comosus",
+    "mono": "PI",
+    "color": "#d4a017",
+    "descripcion": "Pulpa de piña de color amarillo pálido, sabor dulce-ácido refrescante y aroma tropical intenso. Libre de corazón y cáscara, sin aditivos añadidos.",
+    "composicion": {
+      "brix": "12 – 16 °Brix",
+      "ph": "3.3 – 4.1",
+      "acidez": "0.5 – 0.8% (ác. cítrico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
+    },
+    "rendimiento": "5 – 5.5 litros de pulpa por cada 10 kg de fruta fresca (por corteza y corazón fibroso)"
+  },
+  {
+    "slug": "tamarindo",
+    "nombre": "Tamarindo",
+    "nombreCientifico": "Tamarindus indica",
+    "mono": "TA",
+    "color": "#7a5230",
+    "descripcion": "Pulpa concentrada de tamarindo, de color marrón oscuro, sabor agridulce muy intenso, sin semillas ni fibra. Ideal para salsas, refrescos y confitería.",
+    "composicion": {
+      "brix": "45 – 60 °Brix",
+      "ph": "2.0 – 3.0",
+      "acidez": "8 – 15% (ác. tartárico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "5 – 7 días (2-8°C, por su alta acidez natural)"
+    },
+    "rendimiento": "3.5 – 4 litros de pulpa por cada 10 kg de vaina fresca"
+  },
+  {
+    "slug": "guanabana-fresa",
+    "nombre": "Guanábana - Fresa",
+    "nombreCientifico": "Mezcla Annona muricata / Fragaria x ananassa",
+    "mono": "GF",
+    "color": "#8a5a6b",
+    "descripcion": "Mezcla balanceada de pulpa de guanábana y fresa en proporción 50/50, que combina la cremosidad de la guanábana con el color y la acidez frutal de la fresa. Sabor equilibrado, sin aditivos ni azúcar añadida.",
+    "composicion": {
+      "brix": "9 – 12 °Brix",
+      "ph": "3.3 – 3.9",
+      "acidez": "0.6 – 1.0% (ác. cítrico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
+    },
+    "rendimiento": "7 – 7.5 litros de pulpa por cada 10 kg de mezcla de fruta fresca"
+  },
+  {
+    "slug": "durazno",
+    "nombre": "Durazno",
+    "nombreCientifico": "Prunus persica",
+    "mono": "DU",
+    "color": "#e0925f",
+    "descripcion": "Pulpa de durazno amarillo, de color anaranjado suave, sabor dulce delicado y aroma floral característico. Sin semilla ni cáscara, apta para jugos, néctares y repostería.",
+    "composicion": {
+      "brix": "10 – 14 °Brix",
+      "ph": "3.4 – 4.2",
+      "acidez": "0.3 – 0.6% (ác. cítrico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
+    },
+    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca"
+  },
+  {
+    "slug": "lulo",
+    "nombre": "Lulo",
+    "nombreCientifico": "Solanum quitoense",
+    "mono": "LU",
+    "color": "#7ba428",
+    "descripcion": "Pulpa de lulo de color verde-amarillo, sabor ácido y refrescante muy característico de la fruta andina. Tamizada para eliminar semillas, sin aditivos añadidos.",
+    "composicion": {
+      "brix": "6 – 8 °Brix",
+      "ph": "2.8 – 3.2",
+      "acidez": "2.0 – 3.0% (ác. cítrico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
+    },
+    "rendimiento": "6 – 6.5 litros de pulpa por cada 10 kg de fruta fresca"
+  },
+  {
+    "slug": "tomate-de-arbol",
+    "nombre": "Tomate de Árbol",
+    "nombreCientifico": "Solanum betaceum",
+    "mono": "TR",
+    "color": "#c1502e",
+    "descripcion": "Pulpa de tomate de árbol de color naranja-rojizo, sabor agridulce particular con notas suaves. Sin semillas ni cáscara, sin aditivos añadidos.",
+    "composicion": {
+      "brix": "8 – 11 °Brix",
+      "ph": "3.0 – 3.8",
+      "acidez": "1.0 – 1.8% (ác. cítrico)"
+    },
+    "vidaUtil": {
+      "congelada": "12 meses a -18°C",
+      "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
+    },
+    "rendimiento": "6.5 – 7 litros de pulpa por cada 10 kg de fruta fresca"
+  }
+]

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tierra Santa — Ficha Técnica de Pulpa de Fruta</title>
+<meta name="description" content="Ficha técnica de las pulpas de fruta procesadas por Tierra Santa: composición, vida útil y rendimiento por rubro.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  // Falls back to a colored monogram card whenever a product/logo photo is missing.
+  function fruitImgFallback(img) {
+    img.onerror = null;
+    var ph = document.createElement('div');
+    ph.className = img.dataset.fallbackClass || 'ph-placeholder';
+    ph.dataset.label = img.dataset.mono || '';
+    ph.style.background = img.dataset.color || '#c9973b';
+    img.replaceWith(ph);
+  }
+</script>
+
+</head>
+<body>
+
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo.png" alt="Logo Tierra Santa" class="brand-mark" data-mono="TS" data-color="#211d18" data-fallback-class="brand-mark-fallback" onerror="fruitImgFallback(this)">
+      <span class="brand-text">
+        <span class="brand-name">Tierra Santa</span>
+        <span class="brand-tagline">Procesadora de Frutas</span>
+      </span>
+    </a>
+    <nav class="main-nav">
+      <a class="nav-link nav-links-inline" href="index.html">Portada</a>
+      <div class="rubros-menu-wrap">
+        <button class="nav-link nav-links-inline rubros-toggle-inline" type="button" onclick="document.querySelector('.rubros-menu').classList.toggle('open')">Rubros ▾</button>
+        <button class="nav-toggle" type="button" aria-label="Abrir menú"><span></span></button>
+        <div class="rubros-menu"><a class="nav-link" href="rubros/guanabana.html">Guanábana</a><a class="nav-link" href="rubros/fresa.html">Fresa</a><a class="nav-link" href="rubros/mora.html">Mora</a><a class="nav-link" href="rubros/parchita.html">Parchita (Maracuyá)</a><a class="nav-link" href="rubros/guayaba.html">Guayaba</a><a class="nav-link" href="rubros/mango.html">Mango</a><a class="nav-link" href="rubros/pina.html">Piña</a><a class="nav-link" href="rubros/tamarindo.html">Tamarindo</a><a class="nav-link" href="rubros/guanabana-fresa.html">Guanábana - Fresa</a><a class="nav-link" href="rubros/durazno.html">Durazno</a><a class="nav-link" href="rubros/lulo.html">Lulo</a><a class="nav-link" href="rubros/tomate-de-arbol.html">Tomate de Árbol</a></div>
+      </div>
+    </nav>
+  </div>
+</header>
+<section class="hero">
+  <div class="container">
+    <img src="assets/img/logo.png" alt="Logo Tierra Santa" class="hero-mark" data-mono="TS" data-color="#211d18" data-fallback-class="hero-mark-fallback" onerror="fruitImgFallback(this)">
+    <div class="brand-name">Tierra Santa</div>
+    <div class="brand-tagline">Procesadora de Frutas</div>
+    <p class="hero-sub">Pulpa de fruta 100% natural, congelada y sin aditivos. Del campo a tu producto, con la calidad que exige cada rubro.</p>
+    <span class="hero-title-doc">Ficha Técnica de Producto</span>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Nuestros Rubros</h2>
+    <p class="section-lead">Conoce la ficha técnica de cada una de nuestras 12 pulpas de fruta: descripción, composición, vida útil y rendimiento aproximado.</p>
+    <div class="rubros-grid">
+    <a class="rubro-card" href="rubros/guanabana.html">
+      <img src="assets/img/pulpas/guanabana.jpg" alt="Pulpa de Guanábana" class="rubro-card-photo" data-mono="GB" data-color="#4a7c59" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Guanábana</h3>
+        <div class="sci">Annona muricata</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a>
+    <a class="rubro-card" href="rubros/fresa.html">
+      <img src="assets/img/pulpas/fresa.jpg" alt="Pulpa de Fresa" class="rubro-card-photo" data-mono="FR" data-color="#c8375b" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Fresa</h3>
+        <div class="sci">Fragaria x ananassa</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a>
+    <a class="rubro-card" href="rubros/mora.html">
+      <img src="assets/img/pulpas/mora.jpg" alt="Pulpa de Mora" class="rubro-card-photo" data-mono="MO" data-color="#5b2a6e" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Mora</h3>
+        <div class="sci">Rubus glaucus</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a>
+    <a class="rubro-card" href="rubros/parchita.html">
+      <img src="assets/img/pulpas/parchita.jpg" alt="Pulpa de Parchita (Maracuyá)" class="rubro-card-photo" data-mono="PA" data-color="#e0932c" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Parchita (Maracuyá)</h3>
+        <div class="sci">Passiflora edulis</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a>
+    <a class="rubro-card" href="rubros/guayaba.html">
+      <img src="assets/img/pulpas/guayaba.jpg" alt="Pulpa de Guayaba" class="rubro-card-photo" data-mono="GY" data-color="#d96b7a" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Guayaba</h3>
+        <div class="sci">Psidium guajava</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a>
+    <a class="rubro-card" href="rubros/mango.html">
+      <img src="assets/img/pulpas/mango.jpg" alt="Pulpa de Mango" class="rubro-card-photo" data-mono="MA" data-color="#e8901f" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Mango</h3>
+        <div class="sci">Mangifera indica</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a>
+    <a class="rubro-card" href="rubros/pina.html">
+      <img src="assets/img/pulpas/pina.jpg" alt="Pulpa de Piña" class="rubro-card-photo" data-mono="PI" data-color="#d4a017" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Piña</h3>
+        <div class="sci">Ananas comosus</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a>
+    <a class="rubro-card" href="rubros/tamarindo.html">
+      <img src="assets/img/pulpas/tamarindo.jpg" alt="Pulpa de Tamarindo" class="rubro-card-photo" data-mono="TA" data-color="#7a5230" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Tamarindo</h3>
+        <div class="sci">Tamarindus indica</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a>
+    <a class="rubro-card" href="rubros/guanabana-fresa.html">
+      <img src="assets/img/pulpas/guanabana-fresa.jpg" alt="Pulpa de Guanábana - Fresa" class="rubro-card-photo" data-mono="GF" data-color="#8a5a6b" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Guanábana - Fresa</h3>
+        <div class="sci">Mezcla Annona muricata / Fragaria x ananassa</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a>
+    <a class="rubro-card" href="rubros/durazno.html">
+      <img src="assets/img/pulpas/durazno.jpg" alt="Pulpa de Durazno" class="rubro-card-photo" data-mono="DU" data-color="#e0925f" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Durazno</h3>
+        <div class="sci">Prunus persica</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a>
+    <a class="rubro-card" href="rubros/lulo.html">
+      <img src="assets/img/pulpas/lulo.jpg" alt="Pulpa de Lulo" class="rubro-card-photo" data-mono="LU" data-color="#7ba428" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Lulo</h3>
+        <div class="sci">Solanum quitoense</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a>
+    <a class="rubro-card" href="rubros/tomate-de-arbol.html">
+      <img src="assets/img/pulpas/tomate-de-arbol.jpg" alt="Pulpa de Tomate de Árbol" class="rubro-card-photo" data-mono="TR" data-color="#c1502e" onerror="fruitImgFallback(this)">
+      <div class="rubro-card-body">
+        <h3>Tomate de Árbol</h3>
+        <div class="sci">Solanum betaceum</div>
+        <div class="rubro-card-cta">Ver ficha técnica →</div>
+      </div>
+    </a></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="brand-name">Tierra Santa</span><br>
+        <span class="brand-tagline">Procesadora de Frutas</span>
+      </div>
+      <div class="footer-links"><a href="rubros/guanabana.html">Guanábana</a><a href="rubros/fresa.html">Fresa</a><a href="rubros/mora.html">Mora</a><a href="rubros/parchita.html">Parchita (Maracuyá)</a><a href="rubros/guayaba.html">Guayaba</a><a href="rubros/mango.html">Mango</a><a href="rubros/pina.html">Piña</a><a href="rubros/tamarindo.html">Tamarindo</a><a href="rubros/guanabana-fresa.html">Guanábana - Fresa</a><a href="rubros/durazno.html">Durazno</a><a href="rubros/lulo.html">Lulo</a><a href="rubros/tomate-de-arbol.html">Tomate de Árbol</a></div>
+    </div>
+    <div class="footer-note">
+      Ficha técnica de referencia. Los valores de composición, vida útil y rendimiento son aproximados
+      y deben validarse mediante análisis de laboratorio antes de su uso comercial o regulatorio.
+      &copy; 2026 Tierra Santa.
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
