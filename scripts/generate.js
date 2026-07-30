@@ -11,7 +11,7 @@ const FONTS =
 
 function brandMark(size, root) {
   return (
-    '<img src="' + root + 'assets/img/logo.png" alt="Logo Tierra Santa" class="' +
+    '<img src="' + root + 'assets/img/logo.jpg" alt="Logo Tierra Santa" class="' +
     (size === 'hero' ? 'hero-mark' : 'brand-mark') +
     '" data-mono="TS" data-color="#211d18" data-fallback-class="' +
     (size === 'hero' ? 'hero-mark-fallback' : 'brand-mark-fallback') +
@@ -134,7 +134,7 @@ ${header(root, null)}
 <section class="hero">
   <div class="container">
     ${brandMark('hero', root)}
-    <div class="brand-name">Tierra Santa</div>
+    <h1 class="sr-only">Tierra Santa — Procesadora de Frutas</h1>
     <div class="brand-tagline">Procesadora de Frutas</div>
     <p class="hero-sub">Pulpa de fruta 100% natural, congelada y sin aditivos. Del campo a tu producto, con la calidad que exige cada rubro.</p>
     <span class="hero-title-doc">Ficha Técnica de Producto</span>

@@ -11,7 +11,7 @@ data/rubros.json         → Contenido editable: descripción, composición, vid
 scripts/generate.js      → Genera index.html y rubros/*.html a partir de data/rubros.json
 assets/css/style.css     → Estilos del sitio
 assets/js/main.js        → Menú móvil
-assets/img/logo.png      → Logo (agregar, ver abajo)
+assets/img/logo.jpg      → Logo (agregar, ver abajo)
 assets/img/pulpas/*.jpg  → Fotos de cada pulpa (agregar, ver abajo)
 ```
 
@@ -21,7 +21,7 @@ No hay base de datos ni backend: todo es HTML/CSS/JS estático, ideal para Netli
 
 Las fotos **no están incluidas** — el sitio ya está preparado para tomarlas automáticamente en cuanto las agregues con el nombre de archivo exacto. Mientras no exista el archivo, esa foto se muestra como un óvalo/tarjeta de color con las iniciales del rubro (no se ve como "imagen rota").
 
-1. **Logo**: guarda tu archivo como `assets/img/logo.png` (ideal: cuadrado, fondo transparente).
+1. **Logo**: guarda tu archivo como `assets/img/logo.jpg` (o `.png` si prefieres, ajustando la extensión en `scripts/generate.js`).
 2. **Fotos de cada pulpa**: guárdalas en `assets/img/pulpas/` con estos nombres exactos:
 
 | Rubro | Archivo esperado |

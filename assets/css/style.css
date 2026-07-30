@@ -180,13 +180,12 @@ nav.main-nav {
 }
 
 .hero-mark {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  display: block;
+  max-width: 300px;
+  width: 60%;
+  height: auto;
   margin: 0 auto 24px;
-  object-fit: cover;
-  border: 2px solid var(--color-gold);
-  background: #fff;
+  object-fit: contain;
 }
 
 .hero-mark-fallback {
@@ -204,8 +203,19 @@ nav.main-nav {
   border: 2px solid var(--color-gold);
 }
 
-.hero .brand-name { font-size: 68px; }
-.hero .brand-tagline { font-size: 14px; letter-spacing: 3px; }
+.hero .brand-tagline { font-size: 15px; letter-spacing: 3px; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 
 .hero-sub {
   max-width: 620px;
@@ -443,6 +453,5 @@ nav.main-nav {
 @media (max-width: 760px) {
   .nav-links-inline { display: none; }
   .nav-toggle { display: flex; }
-  .hero .brand-name { font-size: 48px; }
   .rubro-hero h1 { font-size: 32px; }
 }
