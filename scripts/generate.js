@@ -4,6 +4,14 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const rubros = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'rubros.json'), 'utf8'));
 
+const EMPRESA = {
+  nombreLegal: 'Procesadora de Alimentos Tierra Santa, C.A.',
+  email: 'procesadoradealimentostierrasa@gmail.com',
+  telefonos: ['0424-7284475', '0424-7017223'],
+  rif: '504109843',
+  direccion: 'Carretera Principal, Sector La Grita, Estado Táchira. Zona postal 5038',
+};
+
 const FONTS =
   '<link rel="preconnect" href="https://fonts.googleapis.com">' +
   '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
@@ -33,7 +41,7 @@ function header(root, activeSlug) {
       ${brandMark('nav', root)}
       <span class="brand-text">
         <span class="brand-name">Tierra Santa</span>
-        <span class="brand-tagline">Procesadora de Frutas</span>
+        <span class="brand-tagline">Procesadora de Alimentos</span>
       </span>
     </a>
     <nav class="main-nav">
@@ -52,20 +60,33 @@ function footer(root) {
   const links = rubros
     .map((r) => '<a href="' + root + 'rubros/' + r.slug + '.html">' + r.nombre + '</a>')
     .join('');
+  const telefonos = EMPRESA.telefonos
+    .map((t) => '<a href="tel:+58' + t.replace(/[^0-9]/g, '').slice(1) + '">' + t + '</a>')
+    .join(' · ');
   return `
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div>
         <span class="brand-name">Tierra Santa</span><br>
-        <span class="brand-tagline">Procesadora de Frutas</span>
+        <span class="brand-tagline">${EMPRESA.nombreLegal}</span>
       </div>
-      <div class="footer-links">${links}</div>
+      <div class="footer-contact">
+        <div class="footer-heading">Contacto</div>
+        <p><a href="mailto:${EMPRESA.email}">${EMPRESA.email}</a></p>
+        <p>${telefonos}</p>
+        <p>RIF: ${EMPRESA.rif}</p>
+        <p>${EMPRESA.direccion}</p>
+      </div>
+      <div>
+        <div class="footer-heading">Rubros</div>
+        <div class="footer-links">${links}</div>
+      </div>
     </div>
     <div class="footer-note">
       Ficha técnica de referencia. Los valores de composición, vida útil y rendimiento son aproximados
       y deben validarse mediante análisis de laboratorio antes de su uso comercial o regulatorio.
-      &copy; ${new Date().getFullYear()} Tierra Santa.
+      &copy; ${new Date().getFullYear()} ${EMPRESA.nombreLegal}
     </div>
   </div>
 </footer>`;
@@ -134,8 +155,8 @@ ${header(root, null)}
 <section class="hero">
   <div class="container">
     ${brandMark('hero', root)}
-    <h1 class="sr-only">Tierra Santa — Procesadora de Frutas</h1>
-    <div class="brand-tagline">Procesadora de Frutas</div>
+    <h1 class="sr-only">${EMPRESA.nombreLegal}</h1>
+    <div class="brand-tagline">${EMPRESA.nombreLegal}</div>
     <p class="hero-sub">Pulpa de fruta 100% natural, congelada y sin aditivos. Del campo a tu producto, con la calidad que exige cada rubro.</p>
     <span class="hero-title-doc">Ficha Técnica de Producto</span>
   </div>
@@ -151,8 +172,8 @@ ${footer(root)}`;
 
   return page({
     root,
-    title: 'Tierra Santa — Ficha Técnica de Pulpa de Fruta',
-    description: 'Ficha técnica de las pulpas de fruta procesadas por Tierra Santa: composición, vida útil y rendimiento por rubro.',
+    title: EMPRESA.nombreLegal + ' — Ficha Técnica de Pulpa de Fruta',
+    description: 'Ficha técnica de las pulpas de fruta procesadas por ' + EMPRESA.nombreLegal + ': composición, vida útil y rendimiento por rubro.',
     bodyContent: body,
   });
 }
@@ -196,9 +217,11 @@ ${header(root, r.slug)}
           <dt>Refrigerada (post-descongelado)</dt><dd>${r.vidaUtil.refrigerada}</dd>
         </dl>
       </div>
-      <div class="data-card full">
+      <div class="data-card">
         <h3>Rendimiento Aproximado</h3>
-        <div class="yield-number">${r.rendimiento}</div>
+        <dl>
+          <dt>Litros de pulpa</dt><dd class="yield-number">${r.rendimiento}</dd>
+        </dl>
       </div>
     </div>
     <div class="pager">
