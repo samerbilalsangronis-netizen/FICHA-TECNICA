@@ -104,8 +104,9 @@ ${bodyContent}
 }
 
 function photoBlock(r, root, cssClass) {
+  const ext = r.ext || 'jpg';
   return (
-    '<img src="' + root + 'assets/img/pulpas/' + r.slug + '.jpg" alt="Pulpa de ' + r.nombre +
+    '<img src="' + root + 'assets/img/pulpas/' + r.slug + '.' + ext + '" alt="Pulpa de ' + r.nombre +
     '" class="' + cssClass + '" data-mono="' + r.mono + '" data-color="' + r.color +
     '" onerror="fruitImgFallback(this)">'
   );

@@ -29,7 +29,7 @@ Las fotos **no están incluidas** — el sitio ya está preparado para tomarlas 
 | Guanábana | `assets/img/pulpas/guanabana.jpg` |
 | Fresa | `assets/img/pulpas/fresa.jpg` |
 | Mora | `assets/img/pulpas/mora.jpg` |
-| Parchita (Maracuyá) | `assets/img/pulpas/parchita.jpg` |
+| Parchita (Maracuyá) | `assets/img/pulpas/parchita.png` |
 | Guayaba | `assets/img/pulpas/guayaba.jpg` |
 | Mango | `assets/img/pulpas/mango.jpg` |
 | Piña | `assets/img/pulpas/pina.jpg` |
