@@ -21,6 +21,8 @@ No hay base de datos ni backend: todo es HTML/CSS/JS estático, ideal para Netli
 
 Las fotos **no están incluidas** — el sitio ya está preparado para tomarlas automáticamente en cuanto las agregues con el nombre de archivo exacto. Mientras no exista el archivo, esa foto se muestra como un óvalo/tarjeta de color con las iniciales del rubro (no se ve como "imagen rota").
 
+> **Importante — tamaño de archivo:** sube fotos ya comprimidas para web, idealmente **menos de 500 KB cada una** (formato `.jpg`, ancho máximo ~1400px). Una foto de cámara o captura sin comprimir puede pesar 7-8 MB; multiplicado por 12 rubros eso agota rápido el ancho de banda gratuito de Netlify y hace el sitio lentísimo. Si subes una imagen muy pesada, avísame y la comprimo antes de hacer el deploy.
+
 1. **Logo**: guarda tu archivo como `assets/img/logo.jpg` (o `.png` si prefieres, ajustando la extensión en `scripts/generate.js`).
 2. **Fotos de cada pulpa**: guárdalas en `assets/img/pulpas/` con estos nombres exactos:
 

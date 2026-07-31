@@ -5,7 +5,6 @@
     "nombreCientifico": "Annona muricata",
     "mono": "GB",
     "color": "#4a7c59",
-    "ext": "png",
     "descripcion": "La guanábana es una fruta tropical de pulpa blanca y cremosa, con pequeñas semillas negras y un aroma intenso muy característico. Seleccionamos fruta madura en su punto óptimo, que se lava, despulpa y tamiza para eliminar semillas y fibra gruesa, conservando su sabor dulce-ácido natural. Se congela de inmediato sin aditivos, conservantes ni azúcar añadida, preservando su color, aroma y valor nutricional. Ideal para jugos, batidos, helados, mermeladas y postres artesanales.",
     "composicion": {
       "brix": "13 – 16 °Brix",
@@ -34,8 +33,7 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "8.5 – 9 litros de pulpa por cada 10 kg de fruta fresca",
-    "ext": "png"
+    "rendimiento": "8.5 – 9 litros de pulpa por cada 10 kg de fruta fresca"
   },
   {
     "slug": "mora",
@@ -53,8 +51,7 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "8 – 8.5 litros de pulpa por cada 10 kg de fruta fresca",
-    "ext": "png"
+    "rendimiento": "8 – 8.5 litros de pulpa por cada 10 kg de fruta fresca"
   },
   {
     "slug": "parchita",
@@ -62,7 +59,6 @@
     "nombreCientifico": "Passiflora edulis",
     "mono": "PA",
     "color": "#e0932c",
-    "ext": "png",
     "descripcion": "La parchita, o maracuyá, es reconocida por su sabor ácido intenso y su aroma tropical muy pronunciado, lo que la convierte en una de las frutas más versátiles para bebidas y coctelería. Se extrae la pulpa junto con las semillas comestibles del interior de la fruta, se despulpa y filtra para retirar cáscara y fibra gruesa, obteniendo un concentrado de sabor puro. Se congela de inmediato sin aditivos. Ideal para jugos, salsas, coctelería, repostería y productos gourmet.",
     "composicion": {
       "brix": "12 – 16 °Brix",
@@ -91,8 +87,7 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca",
-    "ext": "png"
+    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca"
   },
   {
     "slug": "mango",
@@ -146,8 +141,7 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "5 – 7 días (2-8°C, por su alta acidez natural)"
     },
-    "rendimiento": "3.5 – 4 litros de pulpa por cada 10 kg de vaina fresca",
-    "ext": "png"
+    "rendimiento": "3.5 – 4 litros de pulpa por cada 10 kg de vaina fresca"
   },
   {
     "slug": "guanabana-fresa",
@@ -165,8 +159,7 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "7 – 7.5 litros de pulpa por cada 10 kg de mezcla de fruta fresca",
-    "ext": "png"
+    "rendimiento": "7 – 7.5 litros de pulpa por cada 10 kg de mezcla de fruta fresca"
   },
   {
     "slug": "durazno",
@@ -184,8 +177,7 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca",
-    "ext": "jpeg"
+    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca"
   },
   {
     "slug": "lulo",
