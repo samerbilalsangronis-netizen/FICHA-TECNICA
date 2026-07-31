@@ -1,8 +1,18 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const ROOT = path.join(__dirname, '..');
 const rubros = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'rubros.json'), 'utf8'));
+
+// Cache-busting: assets/* is served with a 1-year immutable Cache-Control
+// (see netlify.toml), so the query string must change whenever the CSS/JS
+// content changes or browsers/CDN will keep serving the stale file.
+function hashFile(relPath) {
+  const buf = fs.readFileSync(path.join(ROOT, relPath));
+  return crypto.createHash('md5').update(buf).digest('hex').slice(0, 8);
+}
+const ASSET_VERSION = hashFile('assets/css/style.css') + hashFile('assets/js/main.js');
 
 const EMPRESA = {
   nombreLegal: 'Procesadora de Alimentos Tierra Santa, C.A.',
@@ -113,13 +123,13 @@ function page({ root, title, description, bodyContent, extraHead = '' }) {
 <title>${title}</title>
 <meta name="description" content="${description}">
 ${FONTS}
-<link rel="stylesheet" href="${root}assets/css/style.css">
+<link rel="stylesheet" href="${root}assets/css/style.css?v=${ASSET_VERSION}">
 ${FALLBACK_SCRIPT}
 ${extraHead}
 </head>
 <body>
 ${bodyContent}
-<script src="${root}assets/js/main.js"></script>
+<script src="${root}assets/js/main.js?v=${ASSET_VERSION}"></script>
 </body>
 </html>`;
 }
