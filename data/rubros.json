@@ -34,7 +34,8 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "8.5 – 9 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "8.5 – 9 litros de pulpa por cada 10 kg de fruta fresca",
+    "ext": "png"
   },
   {
     "slug": "mora",
@@ -52,7 +53,8 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "8 – 8.5 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "8 – 8.5 litros de pulpa por cada 10 kg de fruta fresca",
+    "ext": "png"
   },
   {
     "slug": "parchita",
@@ -89,7 +91,8 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca",
+    "ext": "png"
   },
   {
     "slug": "mango",
@@ -143,7 +146,8 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "5 – 7 días (2-8°C, por su alta acidez natural)"
     },
-    "rendimiento": "3.5 – 4 litros de pulpa por cada 10 kg de vaina fresca"
+    "rendimiento": "3.5 – 4 litros de pulpa por cada 10 kg de vaina fresca",
+    "ext": "png"
   },
   {
     "slug": "guanabana-fresa",
@@ -161,7 +165,8 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "7 – 7.5 litros de pulpa por cada 10 kg de mezcla de fruta fresca"
+    "rendimiento": "7 – 7.5 litros de pulpa por cada 10 kg de mezcla de fruta fresca",
+    "ext": "png"
   },
   {
     "slug": "durazno",
@@ -179,7 +184,8 @@
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca",
+    "ext": "jpeg"
   },
   {
     "slug": "lulo",
