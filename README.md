@@ -10,8 +10,7 @@ rubros/<rubro>.html      → Ficha técnica de cada fruta (generadas)
 data/rubros.json         → Contenido editable: descripción, composición, vida útil, rendimiento
 scripts/generate.js      → Genera index.html y rubros/*.html a partir de data/rubros.json
 assets/css/style.css     → Estilos del sitio
-assets/js/main.js        → Menú móvil
-assets/img/logo.jpg      → Logo (agregar, ver abajo)
+assets/img/logo.png      → Logo (agregar, ver abajo)
 assets/img/pulpas/*.jpg  → Fotos de cada pulpa (agregar, ver abajo)
 ```
 
@@ -23,7 +22,7 @@ Las fotos **no están incluidas** — el sitio ya está preparado para tomarlas 
 
 > **Importante — tamaño de archivo:** sube fotos ya comprimidas para web, idealmente **menos de 500 KB cada una** (formato `.jpg`, ancho máximo ~1400px). Una foto de cámara o captura sin comprimir puede pesar 7-8 MB; multiplicado por 12 rubros eso agota rápido el ancho de banda gratuito de Netlify y hace el sitio lentísimo. Si subes una imagen muy pesada, avísame y la comprimo antes de hacer el deploy.
 
-1. **Logo**: guarda tu archivo como `assets/img/logo.jpg` (o `.png` si prefieres, ajustando la extensión en `scripts/generate.js`).
+1. **Logo**: guarda tu archivo como `assets/img/logo.png`, idealmente ya con fondo transparente.
 2. **Fotos de cada pulpa**: guárdalas en `assets/img/pulpas/` con estos nombres exactos:
 
 | Rubro | Archivo esperado |

@@ -12,7 +12,7 @@ function hashFile(relPath) {
   const buf = fs.readFileSync(path.join(ROOT, relPath));
   return crypto.createHash('md5').update(buf).digest('hex').slice(0, 8);
 }
-const ASSET_VERSION = hashFile('assets/css/style.css') + hashFile('assets/js/main.js');
+const ASSET_VERSION = hashFile('assets/css/style.css');
 
 const EMPRESA = {
   nombreLegal: 'Procesadora de Alimentos Tierra Santa, C.A.',
@@ -29,7 +29,7 @@ const FONTS =
 
 function brandMark(size, root) {
   return (
-    '<img src="' + root + 'assets/img/logo.jpg" alt="Logo Tierra Santa" class="' +
+    '<img src="' + root + 'assets/img/logo.png" alt="Logo Tierra Santa" class="' +
     (size === 'hero' ? 'hero-mark' : 'brand-mark') +
     '" data-mono="TS" data-color="#211d18" data-fallback-class="' +
     (size === 'hero' ? 'hero-mark-fallback' : 'brand-mark-fallback') +
@@ -37,13 +37,7 @@ function brandMark(size, root) {
   );
 }
 
-function header(root, activeSlug) {
-  const links = rubros
-    .map(
-      (r) =>
-        '<a class="nav-link" href="' + root + 'rubros/' + r.slug + '.html">' + r.nombre + '</a>'
-    )
-    .join('');
+function header(root) {
   return `
 <header class="site-header">
   <div class="container">
@@ -55,12 +49,7 @@ function header(root, activeSlug) {
       </span>
     </a>
     <nav class="main-nav">
-      <a class="nav-link nav-links-inline" href="${root}index.html">Portada</a>
-      <div class="rubros-menu-wrap">
-        <button class="nav-link nav-links-inline rubros-toggle-inline" type="button" onclick="document.querySelector('.rubros-menu').classList.toggle('open')">Rubros ▾</button>
-        <button class="nav-toggle" type="button" aria-label="Abrir menú"><span></span></button>
-        <div class="rubros-menu">${links}</div>
-      </div>
+      <a class="nav-link" href="${root}index.html">Portada</a>
     </nav>
   </div>
 </header>`;
@@ -129,7 +118,6 @@ ${extraHead}
 </head>
 <body>
 ${bodyContent}
-<script src="${root}assets/js/main.js?v=${ASSET_VERSION}"></script>
 </body>
 </html>`;
 }
@@ -161,7 +149,7 @@ function buildIndex() {
     .join('');
 
   const body = `
-${header(root, null)}
+${header(root)}
 <section class="hero">
   <div class="container">
     ${brandMark('hero', root)}
@@ -195,7 +183,7 @@ function buildRubroPage(r, index) {
   const next = rubros[(index + 1) % rubros.length];
 
   const body = `
-${header(root, r.slug)}
+${header(root)}
 <section class="section rubro-hero">
   <div class="container">
     <div class="rubro-hero-photo">

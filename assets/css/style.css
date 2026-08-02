@@ -114,58 +114,12 @@ nav.main-nav {
   gap: 4px;
 }
 
-.nav-toggle {
-  display: none;
-  background: none;
-  border: 1px solid var(--color-line);
-  border-radius: 8px;
-  width: 40px;
-  height: 40px;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-.nav-toggle span, .nav-toggle span::before, .nav-toggle span::after {
-  content: '';
-  display: block;
-  width: 18px;
-  height: 2px;
-  background: var(--color-ink);
-  position: relative;
-}
-.nav-toggle span::before { position: absolute; top: -6px; }
-.nav-toggle span::after { position: absolute; top: 6px; }
-
 .nav-link {
   font-size: 15px;
   padding: 8px 12px;
   border-radius: 8px;
 }
 .nav-link:hover { color: var(--color-gold-dark); }
-
-.rubros-menu-wrap { position: relative; }
-.rubros-menu {
-  display: none;
-  position: absolute;
-  right: 0;
-  top: calc(100% + 8px);
-  background: #fff;
-  border: 1px solid var(--color-line);
-  border-radius: 12px;
-  box-shadow: var(--shadow-card);
-  padding: 10px;
-  min-width: 240px;
-  grid-template-columns: 1fr 1fr;
-  gap: 2px;
-}
-.rubros-menu.open { display: grid; }
-.rubros-menu a {
-  font-size: 14.5px;
-  padding: 7px 10px;
-  border-radius: 7px;
-  white-space: nowrap;
-}
-.rubros-menu a:hover { background: var(--color-bg-alt); }
 
 /* ---------- Hero (portada) ---------- */
 .hero {
@@ -465,7 +419,5 @@ nav.main-nav {
 }
 
 @media (max-width: 760px) {
-  .nav-links-inline { display: none; }
-  .nav-toggle { display: flex; }
   .rubro-hero h1 { font-size: 32px; }
 }
