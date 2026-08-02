@@ -18,7 +18,7 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   font-family: 'Cormorant Garamond', 'Georgia', serif;
-  background: var(--color-bg);
+  background: url('../img/watermark.svg') repeat fixed 0 0 / 420px 420px, var(--color-bg);
   color: var(--color-ink);
   font-size: 18px;
   line-height: 1.6;
@@ -125,9 +125,7 @@ nav.main-nav {
 .hero {
   padding: 90px 0 70px;
   text-align: center;
-  background:
-    radial-gradient(ellipse at top, rgba(201,151,59,0.12), transparent 60%),
-    var(--color-bg);
+  background: radial-gradient(ellipse at top, rgba(201,151,59,0.12), transparent 60%);
   border-bottom: 1px solid var(--color-line);
 }
 
