@@ -254,7 +254,7 @@ ${header(root)}
       <div class="data-card">
         <h3>Rendimiento Aproximado</h3>
         <dl>
-          <dt>Litros de pulpa</dt><dd class="yield-number">${r.rendimiento}</dd>
+          <dt>Fruta requerida por kg de pulpa</dt><dd class="yield-number">${r.rendimiento}</dd>
         </dl>
       </div>
     </div>
