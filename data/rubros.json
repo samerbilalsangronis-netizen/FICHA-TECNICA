@@ -104,7 +104,7 @@
       "calcio": "20 mg.",
       "fosforo": "9 mg.",
       "hierro": "1,8 mg.",
-      "vitaminaA": null,
+      "vitaminaA": "63 mg.",
       "tiamina": "0,10 mg.",
       "riboflavina": "0,12 mg.",
       "niacina": "1,5 mg.",
@@ -151,7 +151,21 @@
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
     "rendimiento": "6 – 6.5 litros de pulpa por cada 10 kg de fruta fresca",
-    "tablaNutricional": null
+    "tablaNutricional": {
+      "calorias": "63 cal.",
+      "proteinas": "1,0 g.",
+      "grasas": "0,4 g.",
+      "carbohidratos": "14,9 g.",
+      "fibras": null,
+      "calcio": "24 mg.",
+      "fosforo": "28 mg.",
+      "hierro": "0,5 mg.",
+      "vitaminaA": null,
+      "tiamina": "0,07 mg.",
+      "riboflavina": "0,05 mg.",
+      "niacina": "0,9 mg.",
+      "acidoAscorbico": "28 mg."
+    }
   },
   {
     "slug": "pina",
@@ -165,7 +179,21 @@
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
     "rendimiento": "5 – 5.5 litros de pulpa por cada 10 kg de fruta fresca (por corteza y corazón fibroso)",
-    "tablaNutricional": null
+    "tablaNutricional": {
+      "calorias": "78 cal.",
+      "proteinas": "1,8 g.",
+      "grasas": "3,4 g.",
+      "carbohidratos": "1,3 g.",
+      "fibras": "3,0 g.",
+      "calcio": "20 mg.",
+      "fosforo": "9 mg.",
+      "hierro": "1,8 mg.",
+      "vitaminaA": "63 mg.",
+      "tiamina": "0,10 mg.",
+      "riboflavina": "0,12 mg.",
+      "niacina": "1,5 mg.",
+      "acidoAscorbico": "16 mg."
+    }
   },
   {
     "slug": "tamarindo",
@@ -291,6 +319,20 @@
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
     "rendimiento": "6.5 – 7 litros de pulpa por cada 10 kg de fruta fresca",
-    "tablaNutricional": null
+    "tablaNutricional": {
+      "calorias": "63 cal.",
+      "proteinas": "1,0 g.",
+      "grasas": "0,4 g.",
+      "carbohidratos": "14,9 g.",
+      "fibras": null,
+      "calcio": "24 mg.",
+      "fosforo": "28 mg.",
+      "hierro": "0,5 mg.",
+      "vitaminaA": null,
+      "tiamina": "0,07 mg.",
+      "riboflavina": "0,05 mg.",
+      "niacina": "0,9 mg.",
+      "acidoAscorbico": "28 mg."
+    }
   }
 ]
