@@ -397,6 +397,14 @@ nav.main-nav {
   font-style: italic;
 }
 
+.yield-number.yield-pending {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 17px;
+  color: var(--color-ink-soft);
+  font-weight: 500;
+}
+
 .pager {
   display: flex;
   justify-content: space-between;

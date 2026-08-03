@@ -165,6 +165,27 @@ function nutritionCard(r) {
     </div>`;
 }
 
+function yieldCard(r) {
+  if (!r.rendimiento) {
+    return `
+      <div class="data-card">
+        <h3>Rendimiento Aproximado</h3>
+        <dl>
+          <dt>Por cada 1 kg de pulpa</dt>
+          <dd class="yield-number yield-pending">Pendiente — aproximadamente ___ litros (por definir)</dd>
+        </dl>
+      </div>`;
+  }
+  return `
+      <div class="data-card">
+        <h3>Rendimiento Aproximado</h3>
+        <dl>
+          <dt>Por cada 1 kg de pulpa</dt>
+          <dd class="yield-number">${r.rendimiento}</dd>
+        </dl>
+      </div>`;
+}
+
 function photoBlock(r, root, cssClass) {
   const ext = r.ext || 'jpg';
   return (
@@ -251,12 +272,7 @@ ${header(root)}
           <dt>Refrigerada (post-descongelado)</dt><dd>${r.vidaUtil.refrigerada}</dd>
         </dl>
       </div>
-      <div class="data-card">
-        <h3>Rendimiento Aproximado</h3>
-        <dl>
-          <dt>Fruta requerida por kg de pulpa</dt><dd class="yield-number">${r.rendimiento}</dd>
-        </dl>
-      </div>
+      ${yieldCard(r)}
     </div>
     <div class="pager">
       <a href="${prev.slug}.html">← ${prev.nombre}</a>
