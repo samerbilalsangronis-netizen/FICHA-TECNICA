@@ -83,8 +83,9 @@ function footer(root) {
       </div>
     </div>
     <div class="footer-note">
-      Ficha técnica de referencia. Los valores de composición, vida útil y rendimiento son aproximados
-      y deben validarse mediante análisis de laboratorio antes de su uso comercial o regulatorio.
+      Ficha técnica de referencia. La tabla nutricional corresponde a la etiqueta oficial del producto
+      cuando está disponible; los valores de vida útil y rendimiento son aproximados y deben validarse
+      antes de su uso comercial o regulatorio.
       &copy; ${new Date().getFullYear()} ${EMPRESA.nombreLegal}
     </div>
   </div>
@@ -120,6 +121,48 @@ ${extraHead}
 ${bodyContent}
 </body>
 </html>`;
+}
+
+const NUTRIENT_LABELS = {
+  calorias: 'Calorías',
+  proteinas: 'Proteínas',
+  grasas: 'Grasas',
+  carbohidratos: 'Carbohidratos',
+  fibras: 'Fibras',
+  calcio: 'Calcio',
+  fosforo: 'Fósforo',
+  hierro: 'Hierro',
+  vitaminaA: 'Vitamina A',
+  tiamina: 'Tiamina',
+  riboflavina: 'Riboflavina',
+  niacina: 'Niacina',
+  acidoAscorbico: 'Ácido Ascórbico',
+};
+
+function nutritionCard(r) {
+  if (!r.tablaNutricional) {
+    return `
+      <div class="data-card full nutrition-card nutrition-pending">
+        <h3>Tabla Nutricional</h3>
+        <p class="nutrition-pending-note">Pendiente — se actualizará con la tabla nutricional oficial de la etiqueta de este producto.</p>
+      </div>`;
+  }
+  const rows = Object.keys(NUTRIENT_LABELS)
+    .map((key) => {
+      const value = r.tablaNutricional[key];
+      return (
+        '<div class="nutrition-row"><span>' + NUTRIENT_LABELS[key] + '</span><strong>' +
+        (value || '—') + '</strong></div>'
+      );
+    })
+    .join('');
+  return `
+    <div class="data-card full nutrition-card">
+      <h3>Tabla Nutricional</h3>
+      <div class="nutrition-subtitle">Contenido en 100 g</div>
+      <div class="nutrition-grid">${rows}</div>
+      <div class="nutrition-source">Fuente: Tabla de Composición de Alimentos según INN, revisión 1999.</div>
+    </div>`;
 }
 
 function photoBlock(r, root, cssClass) {
@@ -162,7 +205,7 @@ ${header(root)}
 <section class="section">
   <div class="container">
     <h2 class="section-title">Nuestros Rubros</h2>
-    <p class="section-lead">Conoce la ficha técnica de cada una de nuestras ${rubros.length} pulpas de fruta: descripción, composición, vida útil y rendimiento aproximado.</p>
+    <p class="section-lead">Conoce la ficha técnica de cada una de nuestras ${rubros.length} pulpas de fruta: descripción, tabla nutricional, vida útil y rendimiento aproximado.</p>
     <div class="rubros-grid">${cards}</div>
   </div>
 </section>
@@ -171,7 +214,7 @@ ${footer(root)}`;
   return page({
     root,
     title: EMPRESA.nombreLegal + ' — Ficha Técnica de Pulpa de Fruta',
-    description: 'Ficha técnica de las pulpas de fruta procesadas por ' + EMPRESA.nombreLegal + ': composición, vida útil y rendimiento por rubro.',
+    description: 'Ficha técnica de las pulpas de fruta procesadas por ' + EMPRESA.nombreLegal + ': tabla nutricional, vida útil y rendimiento por rubro.',
     bodyContent: body,
   });
 }
@@ -200,14 +243,7 @@ ${header(root)}
 <section class="section" style="padding-top:0;">
   <div class="container">
     <div class="data-grid">
-      <div class="data-card">
-        <h3>Composición</h3>
-        <dl>
-          <dt>Sólidos solubles</dt><dd>${r.composicion.brix}</dd>
-          <dt>pH</dt><dd>${r.composicion.ph}</dd>
-          <dt>Acidez titulable</dt><dd>${r.composicion.acidez}</dd>
-        </dl>
-      </div>
+      ${nutritionCard(r)}
       <div class="data-card">
         <h3>Vida Útil</h3>
         <dl>
@@ -234,7 +270,7 @@ ${footer(root)}`;
   return page({
     root,
     title: r.nombre + ' — Ficha Técnica | Tierra Santa',
-    description: 'Ficha técnica de pulpa de ' + r.nombre + ': descripción, composición, vida útil y rendimiento aproximado.',
+    description: 'Ficha técnica de pulpa de ' + r.nombre + ': descripción, tabla nutricional, vida útil y rendimiento aproximado.',
     bodyContent: body,
   });
 }

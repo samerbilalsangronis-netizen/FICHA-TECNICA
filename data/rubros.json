@@ -6,16 +6,12 @@
     "mono": "GB",
     "color": "#4a7c59",
     "descripcion": "La guanábana es una fruta tropical de pulpa blanca y cremosa, con pequeñas semillas negras y un aroma intenso muy característico. Seleccionamos fruta madura en su punto óptimo, que se lava, despulpa y tamiza para eliminar semillas y fibra gruesa, conservando su sabor dulce-ácido natural. Se congela de inmediato sin aditivos, conservantes ni azúcar añadida, preservando su color, aroma y valor nutricional. Ideal para jugos, batidos, helados, mermeladas y postres artesanales.",
-    "composicion": {
-      "brix": "13 – 16 °Brix",
-      "ph": "3.5 – 4.3",
-      "acidez": "0.5 – 0.8% (ác. cítrico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "6 – 7 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "6 – 7 litros de pulpa por cada 10 kg de fruta fresca",
+    "tablaNutricional": null
   },
   {
     "slug": "fresa",
@@ -24,16 +20,26 @@
     "mono": "FR",
     "color": "#c8375b",
     "descripcion": "La fresa es apreciada por su color rojo intenso, su aroma dulce y su sabor equilibrado entre dulce y ácido. Seleccionamos fresas frescas y maduras que se lavan, desinfectan y procesan hasta obtener una pulpa homogénea, sin semillas grandes ni restos de cáliz. Se congela rápidamente para conservar su color vivo y su frescura natural, sin conservantes ni colorantes artificiales. Es ideal para jugos, batidos, mermeladas, salsas, coctelería y repostería.",
-    "composicion": {
-      "brix": "6 – 9 °Brix",
-      "ph": "3.0 – 3.5",
-      "acidez": "0.6 – 1.0% (ác. cítrico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "8.5 – 9 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "8.5 – 9 litros de pulpa por cada 10 kg de fruta fresca",
+    "tablaNutricional": {
+      "calorias": "63 cal.",
+      "proteinas": "1,0 g.",
+      "grasas": "0,4 g.",
+      "carbohidratos": "14,9 g.",
+      "fibras": null,
+      "calcio": "24 mg.",
+      "fosforo": "28 mg.",
+      "hierro": "0,5 mg.",
+      "vitaminaA": null,
+      "tiamina": "0,07 mg.",
+      "riboflavina": "0,05 mg.",
+      "niacina": "0,9 mg.",
+      "acidoAscorbico": "28 mg."
+    }
   },
   {
     "slug": "mora",
@@ -42,16 +48,12 @@
     "mono": "MO",
     "color": "#5b2a6e",
     "descripcion": "La mora de castilla se caracteriza por su color púrpura oscuro casi negro y su sabor agridulce intenso, muy apreciado en la gastronomía andina. La fruta fresca se lava, despulpa y tamiza finamente para eliminar las semillas duras, obteniendo una pulpa suave y homogénea. Se congela sin aditivos para preservar su color y acidez natural. Es perfecta para jugos, jaleas, salsas agridulces y postres.",
-    "composicion": {
-      "brix": "7 – 10 °Brix",
-      "ph": "2.8 – 3.2",
-      "acidez": "1.5 – 2.5% (ác. cítrico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "8 – 8.5 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "8 – 8.5 litros de pulpa por cada 10 kg de fruta fresca",
+    "tablaNutricional": null
   },
   {
     "slug": "parchita",
@@ -60,16 +62,26 @@
     "mono": "PA",
     "color": "#e0932c",
     "descripcion": "La parchita, o maracuyá, es reconocida por su sabor ácido intenso y su aroma tropical muy pronunciado, lo que la convierte en una de las frutas más versátiles para bebidas y coctelería. Se extrae la pulpa junto con las semillas comestibles del interior de la fruta, se despulpa y filtra para retirar cáscara y fibra gruesa, obteniendo un concentrado de sabor puro. Se congela de inmediato sin aditivos. Ideal para jugos, salsas, coctelería, repostería y productos gourmet.",
-    "composicion": {
-      "brix": "12 – 16 °Brix",
-      "ph": "2.8 – 3.3",
-      "acidez": "2.5 – 4.5% (ác. cítrico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "3 – 3.5 litros de pulpa por cada 10 kg de fruta entera (alto contenido de cáscara)"
+    "rendimiento": "3 – 3.5 litros de pulpa por cada 10 kg de fruta entera (alto contenido de cáscara)",
+    "tablaNutricional": {
+      "calorias": "78 cal.",
+      "proteinas": "1,8 g.",
+      "grasas": "3,4 g.",
+      "carbohidratos": "1,3 g.",
+      "fibras": "3,0 g.",
+      "calcio": "20 mg.",
+      "fosforo": "9 mg.",
+      "hierro": "1,8 mg.",
+      "vitaminaA": null,
+      "tiamina": "0,10 mg.",
+      "riboflavina": "0,12 mg.",
+      "niacina": "1,5 mg.",
+      "acidoAscorbico": "16 mg."
+    }
   },
   {
     "slug": "guayaba",
@@ -78,16 +90,12 @@
     "mono": "GY",
     "color": "#d96b7a",
     "descripcion": "La guayaba rosada aporta un color salmón suave, una textura delicada y un sabor dulce muy característico. Se procesa a partir de fruta fresca y madura, que se lava, despulpa y tamiza para eliminar las semillas duras propias de la fruta, obteniendo una pulpa fina y homogénea. Se congela sin aditivos ni conservantes para mantener intactas sus propiedades. Es ideal para jugos, néctares, mermeladas, dulces y repostería.",
-    "composicion": {
-      "brix": "8 – 12 °Brix",
-      "ph": "3.5 – 4.5",
-      "acidez": "0.3 – 0.6% (ác. cítrico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca",
+    "tablaNutricional": null
   },
   {
     "slug": "mango",
@@ -96,16 +104,12 @@
     "mono": "MA",
     "color": "#e8901f",
     "descripcion": "El mango maduro se distingue por su color amarillo-anaranjado intenso, su textura suave y su sabor dulce tropical. Seleccionamos fruta en su punto óptimo de maduración, que se lava, pela, despulpa y tamiza para eliminar toda la fibra, obteniendo una pulpa lisa y homogénea. Se congela sin aditivos ni azúcar añadida, conservando su aroma y color natural. Es perfecta para jugos, néctares, batidos, helados y repostería.",
-    "composicion": {
-      "brix": "14 – 20 °Brix",
-      "ph": "3.5 – 4.5",
-      "acidez": "0.2 – 0.5% (ác. cítrico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "6 – 6.5 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "6 – 6.5 litros de pulpa por cada 10 kg de fruta fresca",
+    "tablaNutricional": null
   },
   {
     "slug": "pina",
@@ -114,16 +118,12 @@
     "mono": "PI",
     "color": "#d4a017",
     "descripcion": "La piña aporta un sabor dulce-ácido muy refrescante y un aroma tropical intenso. La fruta fresca es pelada, descorazonada y despulpada para eliminar la cáscara y el corazón fibroso, obteniendo una pulpa jugosa y homogénea. Se congela de inmediato sin aditivos ni conservantes, preservando su frescura natural. Es ideal para jugos, néctares, coctelería, salsas y postres tropicales.",
-    "composicion": {
-      "brix": "12 – 16 °Brix",
-      "ph": "3.3 – 4.1",
-      "acidez": "0.5 – 0.8% (ác. cítrico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "5 – 5.5 litros de pulpa por cada 10 kg de fruta fresca (por corteza y corazón fibroso)"
+    "rendimiento": "5 – 5.5 litros de pulpa por cada 10 kg de fruta fresca (por corteza y corazón fibroso)",
+    "tablaNutricional": null
   },
   {
     "slug": "tamarindo",
@@ -132,16 +132,26 @@
     "mono": "TA",
     "color": "#7a5230",
     "descripcion": "El tamarindo se caracteriza por su pulpa marrón oscura, de sabor agridulce muy intenso y concentrado. Las vainas frescas se despulpan retirando semillas, fibra y cáscara, obteniendo una pulpa espesa y homogénea de gran potencia de sabor. Se congela sin aditivos para conservar su acidez natural característica. Es ideal para refrescos, salsas agridulces, glaseados, confitería y platos de la gastronomía tropical.",
-    "composicion": {
-      "brix": "45 – 60 °Brix",
-      "ph": "2.0 – 3.0",
-      "acidez": "8 – 15% (ác. tartárico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "5 – 7 días (2-8°C, por su alta acidez natural)"
     },
-    "rendimiento": "3.5 – 4 litros de pulpa por cada 10 kg de vaina fresca"
+    "rendimiento": "3.5 – 4 litros de pulpa por cada 10 kg de vaina fresca",
+    "tablaNutricional": {
+      "calorias": "36 cal.",
+      "proteinas": "0,8 g.",
+      "grasas": "0,3 g.",
+      "carbohidratos": "8,5 g.",
+      "fibras": "1,3 g.",
+      "calcio": "29 mg.",
+      "fosforo": "29 mg.",
+      "hierro": "1,0 mg.",
+      "vitaminaA": "6 E.R.",
+      "tiamina": "0,03 mg.",
+      "riboflavina": "0,04 mg.",
+      "niacina": "0,4 mg.",
+      "acidoAscorbico": "60 mg."
+    }
   },
   {
     "slug": "guanabana-fresa",
@@ -150,16 +160,26 @@
     "mono": "GF",
     "color": "#8a5a6b",
     "descripcion": "Esta mezcla combina la cremosidad y suavidad de la guanábana con el color intenso y la acidez frutal de la fresa, logrando un sabor equilibrado y muy agradable al paladar. Ambas pulpas se procesan por separado bajo los mismos estándares de calidad y luego se combinan en proporción balanceada 50/50. Se congela sin aditivos ni azúcar añadida. Ideal para jugos, batidos, helados y postres que buscan un perfil de sabor tropical y frutal a la vez.",
-    "composicion": {
-      "brix": "9 – 12 °Brix",
-      "ph": "3.3 – 3.9",
-      "acidez": "0.6 – 1.0% (ác. cítrico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "7 – 7.5 litros de pulpa por cada 10 kg de mezcla de fruta fresca"
+    "rendimiento": "7 – 7.5 litros de pulpa por cada 10 kg de mezcla de fruta fresca",
+    "tablaNutricional": {
+      "calorias": "63 cal.",
+      "proteinas": "1,0 g.",
+      "grasas": "0,4 g.",
+      "carbohidratos": "14,9 g.",
+      "fibras": null,
+      "calcio": "24 mg.",
+      "fosforo": "28 mg.",
+      "hierro": "0,5 mg.",
+      "vitaminaA": null,
+      "tiamina": "0,07 mg.",
+      "riboflavina": "0,05 mg.",
+      "niacina": "0,9 mg.",
+      "acidoAscorbico": "28 mg."
+    }
   },
   {
     "slug": "durazno",
@@ -168,16 +188,26 @@
     "mono": "DU",
     "color": "#e0925f",
     "descripcion": "El durazno amarillo se distingue por su color anaranjado suave, su aroma floral y su sabor dulce delicado. La fruta madura se lava, pela, deshuesa y despulpa para obtener una pulpa fina y homogénea, libre de cáscara y semilla. Se congela sin aditivos ni conservantes, conservando su frescura y sabor natural. Es ideal para jugos, néctares, compotas, repostería y postres.",
-    "composicion": {
-      "brix": "10 – 14 °Brix",
-      "ph": "3.4 – 4.2",
-      "acidez": "0.3 – 0.6% (ác. cítrico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "7.5 – 8 litros de pulpa por cada 10 kg de fruta fresca",
+    "tablaNutricional": {
+      "calorias": "66 Kcal.",
+      "proteinas": "1,20 g.",
+      "grasas": "0,60 g.",
+      "carbohidratos": "17,10 g.",
+      "fibras": "3,20 g.",
+      "calcio": "34 mg.",
+      "fosforo": "36 mg.",
+      "hierro": "2 mg.",
+      "vitaminaA": null,
+      "tiamina": "0,02 mg.",
+      "riboflavina": "0,04 mg.",
+      "niacina": "0,50 mg.",
+      "acidoAscorbico": "18 mg."
+    }
   },
   {
     "slug": "lulo",
@@ -186,16 +216,12 @@
     "mono": "LU",
     "color": "#7ba428",
     "descripcion": "El lulo, fruta típica de la región andina, se caracteriza por su color verde-amarillo y su sabor ácido muy refrescante, con notas cítricas particulares. La fruta fresca se lava, despulpa y tamiza para eliminar las semillas, obteniendo una pulpa suave y homogénea. Se congela de inmediato sin aditivos para conservar su acidez y aroma característicos. Es ideal para jugos, sorbetes, salsas y coctelería.",
-    "composicion": {
-      "brix": "6 – 8 °Brix",
-      "ph": "2.8 – 3.2",
-      "acidez": "2.0 – 3.0% (ác. cítrico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "6 – 6.5 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "6 – 6.5 litros de pulpa por cada 10 kg de fruta fresca",
+    "tablaNutricional": null
   },
   {
     "slug": "tomate-de-arbol",
@@ -204,15 +230,11 @@
     "mono": "TR",
     "color": "#c1502e",
     "descripcion": "El tomate de árbol aporta un color naranja-rojizo intenso y un sabor agridulce particular, con notas suaves y ligeramente ácidas. La fruta madura se lava, pela, despulpa y tamiza para eliminar semillas y cáscara, obteniendo una pulpa fina y homogénea. Se congela sin aditivos ni conservantes, preservando su color y sabor natural. Es ideal para jugos, salsas, batidos y preparaciones típicas de la gastronomía andina.",
-    "composicion": {
-      "brix": "8 – 11 °Brix",
-      "ph": "3.0 – 3.8",
-      "acidez": "1.0 – 1.8% (ác. cítrico)"
-    },
     "vidaUtil": {
       "congelada": "12 meses a -18°C",
       "refrigerada": "3 – 5 días (2-8°C, una vez descongelada)"
     },
-    "rendimiento": "6.5 – 7 litros de pulpa por cada 10 kg de fruta fresca"
+    "rendimiento": "6.5 – 7 litros de pulpa por cada 10 kg de fruta fresca",
+    "tablaNutricional": null
   }
 ]

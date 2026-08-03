@@ -354,6 +354,47 @@ nav.main-nav {
   line-height: 1.35;
 }
 
+.data-card.full { grid-column: 1 / -1; }
+
+.nutrition-subtitle {
+  font-size: 14px;
+  color: var(--color-ink-soft);
+  font-style: italic;
+  margin-bottom: 14px;
+  margin-top: -6px;
+}
+
+.nutrition-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 4px 28px;
+}
+
+.nutrition-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 7px 0;
+  border-bottom: 1px dashed var(--color-line);
+  font-size: 15.5px;
+}
+.nutrition-row span { color: var(--color-ink-soft); }
+.nutrition-row strong { font-weight: 600; white-space: nowrap; }
+
+.nutrition-source {
+  margin-top: 14px;
+  font-size: 12.5px;
+  color: var(--color-ink-soft);
+  font-style: italic;
+}
+
+.nutrition-pending-note {
+  margin: 0;
+  color: var(--color-ink-soft);
+  font-style: italic;
+}
+
 .pager {
   display: flex;
   justify-content: space-between;

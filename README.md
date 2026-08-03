@@ -7,7 +7,7 @@ Sitio estático (sin base de datos) con la ficha técnica de cada rubro de pulpa
 ```
 index.html              → Portada
 rubros/<rubro>.html      → Ficha técnica de cada fruta (generadas)
-data/rubros.json         → Contenido editable: descripción, composición, vida útil, rendimiento
+data/rubros.json         → Contenido editable: descripción, tabla nutricional, vida útil, rendimiento
 scripts/generate.js      → Genera index.html y rubros/*.html a partir de data/rubros.json
 assets/css/style.css     → Estilos del sitio
 assets/img/logo.png      → Logo (agregar, ver abajo)
@@ -46,12 +46,16 @@ Sube los archivos al repositorio (misma carpeta) y Netlify los publica en el sig
 
 ## Editar el contenido de un rubro
 
-Todos los textos de cada rubro (descripción, composición, vida útil, rendimiento) están en `data/rubros.json`. Edita ese archivo y:
+Todos los textos de cada rubro (descripción, tabla nutricional, vida útil, rendimiento) están en `data/rubros.json`. Edita ese archivo y:
 
 - Si tienes Node instalado localmente, corre `node scripts/generate.js` para regenerar las páginas, o
 - Simplemente haz commit y push: Netlify ejecuta ese mismo comando automáticamente en cada deploy (ver `netlify.toml`).
 
-> Nota: los valores de °Brix, pH, acidez, vida útil y rendimiento son valores de referencia típicos de la industria de pulpas de fruta. Antes de usarlos en una ficha técnica comercial o regulatoria, valídalos con análisis de laboratorio de tu propio producto.
+### Tabla Nutricional
+
+El campo `tablaNutricional` de cada rubro (en `data/rubros.json`) se transcribe directo de la etiqueta oficial del producto (contenido por 100 g: calorías, proteínas, grasas, carbohidratos, fibras, calcio, fósforo, hierro, vitamina A, tiamina, riboflavina, niacina y ácido ascórbico). Si un campo va en `null`, la página muestra un guión — así se ve en la etiqueta física. Mientras un rubro no tenga su etiqueta transcrita, deja `"tablaNutricional": null` y la página muestra "Pendiente" en vez de inventar datos.
+
+> Nota: los valores de vida útil y rendimiento siguen siendo de referencia típicos de la industria; deben validarse antes de usarse en un contexto comercial o regulatorio. La tabla nutricional, cuando está presente, proviene de la etiqueta real del producto — igual conviene verificarla contra el empaque físico por si hubo algún error de transcripción.
 
 ## Deploy en Netlify
 
